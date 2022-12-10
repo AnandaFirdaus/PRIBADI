@@ -7,6 +7,12 @@ public class Admin {
         super();
     }
 
+    abstract class adminLogin{
+        public abstract void adminLogin();
+        public void Admin(){
+            System.out.println("Login Sukses");
+        }
+    }
     public int adminLogin(String username, String password) {
         if (Username.equals("admin") && Password.equals("admin")) {
             return 1;
